@@ -1,4 +1,3 @@
-
 `include "ram16k.v"
 
 module ram16k_tb;

@@ -1,5 +1,3 @@
-
-
 module RAM8(input[15:0] in, input clk, load, input[2:0] address, output[15:0] out);
   wire[15:0] o0,o1,o2,o3,o4,o5,o6,o7;
 	

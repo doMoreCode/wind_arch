@@ -1,4 +1,3 @@
-
 module CPU(
     input[15:0]  inM,         // M value input  (M = contents of RAM[A])
                  instruction, // Instruction for execution

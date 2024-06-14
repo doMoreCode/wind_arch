@@ -1,4 +1,3 @@
-
 module RAM64(input [15:0] in, input clk,load, input [5:0] address, output [15:0] out);
     wire[15:0] o1, o2, o3, o4, o5, o6, o7, o8;
     DMux8Way d1(load, address[5:3], loadA, loadB, loadC, loadD, loadE, loadF, loadG, loadH);

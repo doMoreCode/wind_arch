@@ -1,5 +1,3 @@
-
-
 module Memory(input[15:0] in, input clock, write, input[14:0] address, output[15:0] out);
   wire[15:0] outRam, outS, outK;
 

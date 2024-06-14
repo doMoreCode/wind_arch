@@ -1,4 +1,3 @@
-
 `include "nand.v"
 `include "not.v"
 `include "or.v"

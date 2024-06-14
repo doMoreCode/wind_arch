@@ -1,4 +1,3 @@
-
 module Computer(input clock, reset);
   wire[15:0] inM, outM, I;
 	wire[14:0] addressM, pc;
